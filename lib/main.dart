@@ -89,11 +89,12 @@ class _HomeBodyState extends State<HomeBody> {
               controller: _textEditingController,
               onChanged: (value) => calcula(),
               decoration: InputDecoration(
-                
+
                 hintText: "Digite o valor da conta",
                 hintStyle: TextStyle(color: Colors.grey.shade500),
                 fillColor: Colors.white,
                 filled: true,
+                prefixIcon: Icon(Icons.monetization_on_outlined),
                 enabledBorder: OutlineInputBorder(
                     borderSide:
                         BorderSide(width: 2, color: Colors.grey.shade800),
